@@ -1,0 +1,17 @@
+name: stpm
+channels:
+  - menpo
+  - defaults
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - pytorch-lightning
+      - opencv-python-headless
+      - torchmetrics
+      - scikit-learn
+      - wandb

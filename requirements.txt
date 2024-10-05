@@ -1,0 +1,9 @@
+#torch==1.12.0
+#torchvision==0.13.0
+opencv-python-headless
+#scikit-learn==1.0.2
+pytorch-lightning
+torchmetrics
+click
+wandb
+kornia
